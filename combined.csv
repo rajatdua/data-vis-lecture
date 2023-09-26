@@ -1,0 +1,657 @@
+﻿year,city,avg_temp,10y_ma
+1850,Seattle,7.06,6.98
+1851,Seattle,7.79,6.96
+1852,Seattle,7.08,7.07
+1853,Seattle,7.61,7.09
+1854,Seattle,6.99,7.17
+1855,Seattle,7.31,7.21
+1856,Seattle,7.44,7.3
+1857,Seattle,7.91,7.36
+1858,Seattle,6.91,7.41
+1859,Seattle,6.27,7.22
+1860,Seattle,7.63,7.19
+1861,Seattle,7.18,7.27
+1862,Seattle,6.36,7.28
+1863,Seattle,7.44,7.15
+1864,Seattle,7.64,7.19
+1865,Seattle,7.05,7.19
+1866,Seattle,7.39,7.19
+1867,Seattle,7.12,7.2
+1868,Seattle,6.99,7.17
+1869,Seattle,8.33,7.09
+1870,Seattle,7.85,7.22
+1871,Seattle,7.97,7.36
+1872,Seattle,7.34,7.39
+1873,Seattle,7.47,7.41
+1874,Seattle,7.32,7.51
+1875,Seattle,6.9,7.5
+1876,Seattle,7.12,7.43
+1877,Seattle,8.14,7.44
+1878,Seattle,7.89,7.5
+1879,Seattle,6.74,7.57
+1880,Seattle,5.95,7.55
+1881,Seattle,6.86,7.34
+1882,Seattle,6.88,7.25
+1883,Seattle,6.97,7.15
+1884,Seattle,6.81,7.11
+1885,Seattle,8.66,7.05
+1886,Seattle,7.85,7.17
+1887,Seattle,6.77,7.26
+1888,Seattle,7.73,7.23
+1889,Seattle,8.08,7.19
+1890,Seattle,7.03,7.21
+1891,Seattle,7.61,7.24
+1892,Seattle,7.54,7.39
+1893,Seattle,6.16,7.45
+1894,Seattle,6.88,7.38
+1895,Seattle,7.26,7.37
+1896,Seattle,7.2,7.42
+1897,Seattle,7.5,7.28
+1898,Seattle,7.6,7.25
+1899,Seattle,7.08,7.33
+1900,Seattle,7.95,7.27
+1901,Seattle,7.27,7.26
+1902,Seattle,7.33,7.28
+1903,Seattle,6.98,7.25
+1904,Seattle,7.7,7.2
+1905,Seattle,7.59,7.34
+1906,Seattle,7.99,7.41
+1907,Seattle,7.28,7.47
+1908,Seattle,7.32,7.48
+1909,Seattle,6.52,7.46
+1910,Seattle,7.24,7.36
+1911,Seattle,6.73,7.38
+1912,Seattle,7.43,7.27
+1913,Seattle,6.99,7.28
+1914,Seattle,7.92,7.25
+1915,Seattle,8.13,7.34
+1916,Seattle,6.23,7.38
+1917,Seattle,7.25,7.25
+1918,Seattle,7.85,7.19
+1919,Seattle,6.94,7.24
+1920,Seattle,7.19,7.2
+1921,Seattle,7.2,7.26
+1922,Seattle,6.66,7.26
+1923,Seattle,7.82,7.25
+1924,Seattle,7.46,7.29
+1925,Seattle,8.26,7.33
+1926,Seattle,8.72,7.36
+1927,Seattle,7.3,7.42
+1928,Seattle,7.86,7.51
+1929,Seattle,6.96,7.57
+1930,Seattle,7.23,7.49
+1931,Seattle,8,7.51
+1932,Seattle,7.37,7.59
+1933,Seattle,7.06,7.6
+1934,Seattle,9.04,7.64
+1935,Seattle,7.33,7.75
+1936,Seattle,7.67,7.74
+1937,Seattle,7.39,7.69
+1938,Seattle,8.12,7.56
+1939,Seattle,8.25,7.64
+1940,Seattle,8.81,7.67
+1941,Seattle,8.83,7.84
+1942,Seattle,8.1,7.99
+1943,Seattle,7.51,8
+1944,Seattle,7.84,8.01
+1945,Seattle,7.57,8.08
+1946,Seattle,7.39,7.95
+1947,Seattle,8.03,7.95
+1948,Seattle,6.68,7.99
+1949,Seattle,7.05,7.92
+1950,Seattle,6.77,7.82
+1951,Seattle,7.33,7.69
+1952,Seattle,7.56,7.55
+1953,Seattle,8.11,7.44
+1954,Seattle,7.04,7.44
+1955,Seattle,6.09,7.4
+1956,Seattle,7.18,7.24
+1957,Seattle,7.52,7.2
+1958,Seattle,9.28,7.21
+1959,Seattle,7.5,7.33
+1960,Seattle,7.51,7.4
+1961,Seattle,8.12,7.44
+1962,Seattle,7.66,7.57
+1963,Seattle,7.91,7.6
+1964,Seattle,6.83,7.63
+1965,Seattle,7.91,7.51
+1966,Seattle,7.88,7.59
+1967,Seattle,8.38,7.75
+1968,Seattle,7.73,7.86
+1969,Seattle,7.51,7.88
+1970,Seattle,7.55,7.72
+1971,Seattle,7.1,7.73
+1972,Seattle,7.09,7.69
+1973,Seattle,7.58,7.6
+1974,Seattle,7.72,7.59
+1975,Seattle,7.09,7.57
+1976,Seattle,7.46,7.59
+1977,Seattle,7.63,7.55
+1978,Seattle,7.78,7.53
+1979,Seattle,7.88,7.48
+1980,Seattle,7.75,7.49
+1981,Seattle,8.23,7.51
+1982,Seattle,7.35,7.57
+1983,Seattle,7.94,7.6
+1984,Seattle,7.41,7.67
+1985,Seattle,6.71,7.66
+1986,Seattle,8.25,7.57
+1987,Seattle,8.67,7.67
+1988,Seattle,8.1,7.78
+1989,Seattle,7.87,7.82
+1990,Seattle,8.09,7.83
+1991,Seattle,8.2,7.85
+1992,Seattle,9.03,7.89
+1993,Seattle,7.68,7.97
+1994,Seattle,8.35,8
+1995,Seattle,8.62,8.03
+1996,Seattle,7.61,8.14
+1997,Seattle,8.41,8.22
+1998,Seattle,8.7,8.24
+1999,Seattle,7.79,8.24
+2000,Seattle,7.72,8.21
+2001,Seattle,7.9,8.2
+2002,Seattle,8.03,8.18
+2003,Seattle,8.74,8.17
+2004,Seattle,9.04,8.14
+2005,Seattle,8.57,8.26
+2006,Seattle,8.49,8.28
+2007,Seattle,8.04,8.27
+2008,Seattle,7.57,8.31
+2009,Seattle,8.02,8.24
+2010,Seattle,8.25,8.17
+2011,Seattle,7.35,8.22
+2012,Seattle,8.08,8.18
+2013,Seattle,9.95,8.2
+1850,Oklahoma City,14.71,14.74
+1851,Oklahoma City,15.13,14.72
+1852,Oklahoma City,14.37,14.77
+1853,Oklahoma City,14.53,14.74
+1854,Oklahoma City,15.7,14.69
+1855,Oklahoma City,14.9,14.82
+1856,Oklahoma City,13.99,14.82
+1857,Oklahoma City,14.42,14.71
+1858,Oklahoma City,15.02,14.61
+1859,Oklahoma City,14.87,14.71
+1860,Oklahoma City,15.71,14.75
+1861,Oklahoma City,15.55,14.85
+1862,Oklahoma City,15.33,14.93
+1863,Oklahoma City,15.17,14.94
+1864,Oklahoma City,14.6,15.02
+1865,Oklahoma City,15.01,15.02
+1866,Oklahoma City,14.77,14.96
+1867,Oklahoma City,15.17,14.95
+1868,Oklahoma City,14.72,15.06
+1869,Oklahoma City,13.76,15.08
+1870,Oklahoma City,15.09,14.97
+1871,Oklahoma City,15.33,14.99
+1872,Oklahoma City,14.13,14.95
+1873,Oklahoma City,14.13,14.83
+1874,Oklahoma City,15.08,14.72
+1875,Oklahoma City,13.83,14.71
+1876,Oklahoma City,14.68,14.64
+1877,Oklahoma City,14.84,14.61
+1878,Oklahoma City,15.39,14.61
+1879,Oklahoma City,15.37,14.63
+1880,Oklahoma City,14.95,14.69
+1881,Oklahoma City,15.22,14.8
+1882,Oklahoma City,15.31,14.81
+1883,Oklahoma City,14.17,14.81
+1884,Oklahoma City,14.01,14.82
+1885,Oklahoma City,13.7,14.8
+1886,Oklahoma City,14.3,14.68
+1887,Oklahoma City,14.84,14.72
+1888,Oklahoma City,14.46,14.74
+1889,Oklahoma City,14.85,14.7
+1890,Oklahoma City,15.37,14.65
+1891,Oklahoma City,14.43,14.65
+1892,Oklahoma City,14.1,14.61
+1893,Oklahoma City,14.84,14.5
+1894,Oklahoma City,15.18,14.46
+1895,Oklahoma City,14.18,14.55
+1896,Oklahoma City,15.66,14.57
+1897,Oklahoma City,14.81,14.75
+1898,Oklahoma City,14.46,14.79
+1899,Oklahoma City,14.56,14.76
+1900,Oklahoma City,15.37,14.77
+1901,Oklahoma City,15.39,14.81
+1902,Oklahoma City,14.96,14.82
+1903,Oklahoma City,14.12,14.86
+1904,Oklahoma City,15.22,14.87
+1905,Oklahoma City,14.16,14.9
+1906,Oklahoma City,14.45,14.81
+1907,Oklahoma City,15.33,14.83
+1908,Oklahoma City,15.37,14.8
+1909,Oklahoma City,15.37,14.85
+1910,Oklahoma City,15.86,14.94
+1911,Oklahoma City,16.14,15.05
+1912,Oklahoma City,14.26,15.12
+1913,Oklahoma City,15.11,15.02
+1914,Oklahoma City,15.59,15.04
+1915,Oklahoma City,14.55,15.17
+1916,Oklahoma City,15.08,15.11
+1917,Oklahoma City,14.28,15.19
+1918,Oklahoma City,15.22,15.18
+1919,Oklahoma City,14.57,15.17
+1920,Oklahoma City,14.62,15.09
+1921,Oklahoma City,16.48,15.03
+1922,Oklahoma City,15.7,15.08
+1923,Oklahoma City,15.48,15.04
+1924,Oklahoma City,14.4,15.15
+1925,Oklahoma City,15.77,15.09
+1926,Oklahoma City,15.05,15.1
+1927,Oklahoma City,15.51,15.15
+1928,Oklahoma City,15.48,15.19
+1929,Oklahoma City,14.52,15.3
+1930,Oklahoma City,15.48,15.23
+1931,Oklahoma City,16.29,15.32
+1932,Oklahoma City,15.18,15.47
+1933,Oklahoma City,16.61,15.35
+1934,Oklahoma City,16.6,15.43
+1935,Oklahoma City,15.36,15.54
+1936,Oklahoma City,16.01,15.62
+1937,Oklahoma City,14.95,15.64
+1938,Oklahoma City,16.49,15.64
+1939,Oklahoma City,16.64,15.72
+1940,Oklahoma City,14.66,15.83
+1941,Oklahoma City,15.6,15.84
+1942,Oklahoma City,15.17,15.85
+1943,Oklahoma City,15.59,15.75
+1944,Oklahoma City,15.5,15.79
+1945,Oklahoma City,14.89,15.69
+1946,Oklahoma City,16.53,15.53
+1947,Oklahoma City,15.41,15.64
+1948,Oklahoma City,15.03,15.58
+1949,Oklahoma City,14.97,15.59
+1950,Oklahoma City,14.89,15.45
+1951,Oklahoma City,15.03,15.29
+1952,Oklahoma City,15.9,15.33
+1953,Oklahoma City,16.35,15.36
+1954,Oklahoma City,17.32,15.46
+1955,Oklahoma City,15.8,15.62
+1956,Oklahoma City,16.62,15.65
+1957,Oklahoma City,14.99,15.8
+1958,Oklahoma City,15,15.66
+1959,Oklahoma City,15.07,15.63
+1960,Oklahoma City,14.75,15.63
+1961,Oklahoma City,14.67,15.61
+1962,Oklahoma City,15.58,15.59
+1963,Oklahoma City,16.06,15.64
+1964,Oklahoma City,15.78,15.66
+1965,Oklahoma City,16.02,15.6
+1966,Oklahoma City,15,15.49
+1967,Oklahoma City,15.38,15.41
+1968,Oklahoma City,14.78,15.3
+1969,Oklahoma City,15.24,15.28
+1970,Oklahoma City,15.46,15.3
+1971,Oklahoma City,15.5,15.34
+1972,Oklahoma City,15.33,15.41
+1973,Oklahoma City,15.29,15.47
+1974,Oklahoma City,15.52,15.44
+1975,Oklahoma City,15.03,15.39
+1976,Oklahoma City,15.24,15.32
+1977,Oklahoma City,16.3,15.25
+1978,Oklahoma City,14.91,15.37
+1979,Oklahoma City,14.28,15.33
+1980,Oklahoma City,16.08,15.28
+1981,Oklahoma City,16.2,15.36
+1982,Oklahoma City,15.13,15.43
+1983,Oklahoma City,14.62,15.39
+1984,Oklahoma City,15.48,15.33
+1985,Oklahoma City,14.87,15.34
+1986,Oklahoma City,16.24,15.29
+1987,Oklahoma City,15.63,15.4
+1988,Oklahoma City,15.38,15.43
+1989,Oklahoma City,14.56,15.35
+1990,Oklahoma City,16.26,15.32
+1991,Oklahoma City,16.13,15.5
+1992,Oklahoma City,15.49,15.5
+1993,Oklahoma City,14.73,15.44
+1994,Oklahoma City,15.72,15.4
+1995,Oklahoma City,15.42,15.5
+1996,Oklahoma City,15.24,15.49
+1997,Oklahoma City,15.23,15.53
+1998,Oklahoma City,17,15.44
+1999,Oklahoma City,16.5,15.56
+2000,Oklahoma City,15.91,15.66
+2001,Oklahoma City,16.46,15.78
+2002,Oklahoma City,15.51,15.8
+2003,Oklahoma City,15.7,15.75
+2004,Oklahoma City,15.87,15.77
+2005,Oklahoma City,16.2,15.87
+2006,Oklahoma City,17.1,15.91
+2007,Oklahoma City,15.83,16.07
+2008,Oklahoma City,15.41,16.12
+2009,Oklahoma City,15.4,16.14
+2010,Oklahoma City,15.95,15.99
+2011,Oklahoma City,16.71,15.94
+2012,Oklahoma City,17.69,16.01
+2013,Oklahoma City,17.21,16.12
+1850,Denver,8.24,8.28
+1851,Denver,8.83,8.25
+1852,Denver,7.84,8.31
+1853,Denver,8.52,8.29
+1854,Denver,9.22,8.29
+1855,Denver,8.81,8.43
+1856,Denver,8.11,8.49
+1857,Denver,8.57,8.43
+1858,Denver,8.45,8.36
+1859,Denver,7.81,8.43
+1860,Denver,8.95,8.42
+1861,Denver,9.21,8.49
+1862,Denver,8.59,8.57
+1863,Denver,8.92,8.55
+1864,Denver,8.53,8.65
+1865,Denver,8.49,8.65
+1866,Denver,8.46,8.59
+1867,Denver,9.26,8.55
+1868,Denver,8.49,8.66
+1869,Denver,7.75,8.65
+1870,Denver,8.84,8.59
+1871,Denver,9.35,8.68
+1872,Denver,7.73,8.72
+1873,Denver,8.1,8.58
+1874,Denver,8.72,8.54
+1875,Denver,7.68,8.52
+1876,Denver,8.37,8.44
+1877,Denver,8.23,8.43
+1878,Denver,8.68,8.41
+1879,Denver,9.29,8.36
+1880,Denver,7.8,8.43
+1881,Denver,8.92,8.44
+1882,Denver,8.62,8.44
+1883,Denver,7.94,8.38
+1884,Denver,7.9,8.4
+1885,Denver,8.24,8.38
+1886,Denver,8.47,8.33
+1887,Denver,8.75,8.41
+1888,Denver,8.85,8.44
+1889,Denver,8.73,8.5
+1890,Denver,9.1,8.5
+1891,Denver,7.75,8.48
+1892,Denver,8,8.48
+1893,Denver,8.78,8.4
+1894,Denver,8.8,8.41
+1895,Denver,7.6,8.49
+1896,Denver,9.24,8.46
+1897,Denver,8.45,8.55
+1898,Denver,7.97,8.55
+1899,Denver,8.01,8.48
+1900,Denver,9.32,8.4
+1901,Denver,9.05,8.46
+1902,Denver,8.82,8.45
+1903,Denver,7.93,8.55
+1904,Denver,8.86,8.54
+1905,Denver,8.13,8.55
+1906,Denver,8.49,8.49
+1907,Denver,9.01,8.57
+1908,Denver,8.6,8.55
+1909,Denver,8.04,8.56
+1910,Denver,9.78,8.57
+1911,Denver,8.85,8.73
+1912,Denver,7.21,8.69
+1913,Denver,7.85,8.52
+1914,Denver,8.94,8.43
+1915,Denver,8.16,8.52
+1916,Denver,8.34,8.46
+1917,Denver,8.06,8.48
+1918,Denver,8.46,8.44
+1919,Denver,8.29,8.39
+1920,Denver,8.19,8.36
+1921,Denver,9.77,8.38
+1922,Denver,8.75,8.37
+1923,Denver,7.99,8.37
+1924,Denver,7.76,8.44
+1925,Denver,9.13,8.43
+1926,Denver,8.88,8.45
+1927,Denver,8.79,8.51
+1928,Denver,8.32,8.55
+1929,Denver,7.75,8.58
+1930,Denver,8.37,8.51
+1931,Denver,9.35,8.52
+1932,Denver,8.54,8.62
+1933,Denver,9.87,8.51
+1934,Denver,10.92,8.61
+1935,Denver,9.36,8.88
+1936,Denver,9.39,9.03
+1937,Denver,8.74,9.05
+1938,Denver,9.54,9.04
+1939,Denver,9.52,9.1
+1940,Denver,9.07,9.21
+1941,Denver,9.05,9.33
+1942,Denver,8.46,9.4
+1943,Denver,9.55,9.31
+1944,Denver,8.58,9.41
+1945,Denver,8.6,9.29
+1946,Denver,9.57,9.08
+1947,Denver,8.68,9.1
+1948,Denver,8.5,9.03
+1949,Denver,8.77,9.01
+1950,Denver,9.32,8.94
+1951,Denver,8.06,8.92
+1952,Denver,9.15,8.83
+1953,Denver,9.73,8.84
+1954,Denver,10.62,8.96
+1955,Denver,8.94,9.05
+1956,Denver,9.38,9.09
+1957,Denver,8.72,9.16
+1958,Denver,9.32,9.08
+1959,Denver,8.7,9.14
+1960,Denver,8.5,9.16
+1961,Denver,8.3,9.13
+1962,Denver,9.17,9.04
+1963,Denver,9.9,9.14
+1964,Denver,8.73,9.21
+1965,Denver,8.73,9.12
+1966,Denver,8.97,8.94
+1967,Denver,8.91,8.95
+1968,Denver,8.72,8.9
+1969,Denver,8.95,8.9
+1970,Denver,8.87,8.87
+1971,Denver,8.75,8.89
+1972,Denver,8.71,8.91
+1973,Denver,8.42,8.95
+1974,Denver,9.06,8.88
+1975,Denver,8.72,8.8
+1976,Denver,9.19,8.8
+1977,Denver,9.89,8.84
+1978,Denver,8.59,8.93
+1979,Denver,8.47,8.9
+1980,Denver,9.46,8.87
+1981,Denver,10.25,8.92
+1982,Denver,8.67,9.05
+1983,Denver,8.43,9.04
+1984,Denver,8.54,9.01
+1985,Denver,8.33,9.02
+1986,Denver,9.99,8.96
+1987,Denver,9.33,9.07
+1988,Denver,9.19,9.09
+1989,Denver,9.07,9.02
+1990,Denver,9.28,9.07
+1991,Denver,9.32,9.14
+1992,Denver,9.16,9.13
+1993,Denver,8.18,9.03
+1994,Denver,10.02,8.98
+1995,Denver,9.21,9.13
+1996,Denver,9.31,9.19
+1997,Denver,8.85,9.28
+1998,Denver,9.81,9.17
+1999,Denver,10.05,9.22
+2000,Denver,10,9.3
+2001,Denver,10.01,9.38
+2002,Denver,9.61,9.45
+2003,Denver,10.04,9.47
+2004,Denver,9.54,9.55
+2005,Denver,10.06,9.68
+2006,Denver,9.96,9.68
+2007,Denver,9.48,9.75
+2008,Denver,9.09,9.76
+2009,Denver,8.89,9.79
+2010,Denver,9.76,9.7
+2011,Denver,9.38,9.68
+2012,Denver,10.92,9.62
+2013,Denver,11.21,9.7
+1850,Dallas,17.74,17.68
+1851,Dallas,17.91,17.69
+1852,Dallas,17.4,17.72
+1853,Dallas,17.17,17.7
+1854,Dallas,18.14,17.62
+1855,Dallas,17.61,17.69
+1856,Dallas,16.93,17.66
+1857,Dallas,17.31,17.58
+1858,Dallas,17.9,17.5
+1859,Dallas,17.91,17.58
+1860,Dallas,18.34,17.63
+1861,Dallas,18.41,17.67
+1862,Dallas,18.35,17.73
+1863,Dallas,17.9,17.77
+1864,Dallas,17.41,17.82
+1865,Dallas,17.95,17.84
+1866,Dallas,17.79,17.82
+1867,Dallas,18.45,17.84
+1868,Dallas,17.61,17.97
+1869,Dallas,16.94,18
+1870,Dallas,17.82,17.91
+1871,Dallas,18.27,17.91
+1872,Dallas,17.28,17.9
+1873,Dallas,17.37,17.8
+1874,Dallas,18.24,17.71
+1875,Dallas,17.24,17.74
+1876,Dallas,17.67,17.72
+1877,Dallas,17.53,17.7
+1878,Dallas,18.01,17.67
+1879,Dallas,18.37,17.63
+1880,Dallas,17.75,17.7
+1881,Dallas,18.17,17.78
+1882,Dallas,18.21,17.81
+1883,Dallas,17.77,17.8
+1884,Dallas,17.44,17.85
+1885,Dallas,16.82,17.85
+1886,Dallas,17.22,17.73
+1887,Dallas,17.89,17.72
+1888,Dallas,17.28,17.74
+1889,Dallas,17.71,17.72
+1890,Dallas,18.5,17.69
+1891,Dallas,17.35,17.71
+1892,Dallas,17.21,17.67
+1893,Dallas,18.01,17.58
+1894,Dallas,17.96,17.56
+1895,Dallas,17.02,17.58
+1896,Dallas,18.6,17.54
+1897,Dallas,17.93,17.7
+1898,Dallas,17.41,17.77
+1899,Dallas,17.59,17.73
+1900,Dallas,18.08,17.75
+1901,Dallas,18.02,17.79
+1902,Dallas,18.03,17.74
+1903,Dallas,16.64,17.81
+1904,Dallas,18.12,17.75
+1905,Dallas,16.97,17.76
+1906,Dallas,17.3,17.67
+1907,Dallas,18.44,17.7
+1908,Dallas,18.24,17.68
+1909,Dallas,18.62,17.71
+1910,Dallas,18.49,17.82
+1911,Dallas,19.11,17.9
+1912,Dallas,17.1,18
+1913,Dallas,17.57,17.91
+1914,Dallas,17.75,17.87
+1915,Dallas,17.67,17.97
+1916,Dallas,18.23,17.93
+1917,Dallas,17.3,18.05
+1918,Dallas,18.2,18.05
+1919,Dallas,17.41,18.03
+1920,Dallas,17.55,17.95
+1921,Dallas,19.48,17.85
+1922,Dallas,18.6,17.94
+1923,Dallas,18.15,17.9
+1924,Dallas,17.48,17.99
+1925,Dallas,18.98,17.98
+1926,Dallas,17.62,18.1
+1927,Dallas,18.79,18.09
+1928,Dallas,17.93,18.14
+1929,Dallas,17.58,18.2
+1930,Dallas,18.04,18.14
+1931,Dallas,18.57,18.2
+1932,Dallas,17.99,18.29
+1933,Dallas,19.34,18.16
+1934,Dallas,19.34,18.22
+1935,Dallas,18.09,18.33
+1936,Dallas,18.21,18.39
+1937,Dallas,17.94,18.32
+1938,Dallas,19.12,18.35
+1939,Dallas,19.16,18.38
+1940,Dallas,17.19,18.49
+1941,Dallas,18.27,18.45
+1942,Dallas,17.94,18.47
+1943,Dallas,18.42,18.42
+1944,Dallas,18.4,18.46
+1945,Dallas,18.06,18.37
+1946,Dallas,18.91,18.25
+1947,Dallas,17.96,18.33
+1948,Dallas,18.26,18.31
+1949,Dallas,18.05,18.34
+1950,Dallas,18.15,18.24
+1951,Dallas,18.63,18.15
+1952,Dallas,18.85,18.28
+1953,Dallas,18.82,18.33
+1954,Dallas,19.67,18.41
+1955,Dallas,18.73,18.52
+1956,Dallas,19.36,18.55
+1957,Dallas,18.1,18.67
+1958,Dallas,17.63,18.6
+1959,Dallas,17.75,18.57
+1960,Dallas,17.71,18.52
+1961,Dallas,17.68,18.49
+1962,Dallas,18.32,18.45
+1963,Dallas,18.84,18.42
+1964,Dallas,18.38,18.42
+1965,Dallas,18.54,18.38
+1966,Dallas,17.61,18.28
+1967,Dallas,18.33,18.17
+1968,Dallas,17.36,18.08
+1969,Dallas,18.15,18.01
+1970,Dallas,17.91,18.06
+1971,Dallas,18.51,18.08
+1972,Dallas,18.31,18.15
+1973,Dallas,17.98,18.21
+1974,Dallas,18.26,18.17
+1975,Dallas,17.95,18.12
+1976,Dallas,17.45,18.08
+1977,Dallas,18.88,17.98
+1978,Dallas,17.82,18.1
+1979,Dallas,17.11,18.05
+1980,Dallas,18.77,18.03
+1981,Dallas,18.41,18.09
+1982,Dallas,18.17,18.13
+1983,Dallas,17.2,18.1
+1984,Dallas,18.47,18
+1985,Dallas,18.22,18.04
+1986,Dallas,18.83,18.04
+1987,Dallas,18.28,18.12
+1988,Dallas,18.19,18.2
+1989,Dallas,17.48,18.13
+1990,Dallas,18.97,18.1
+1991,Dallas,18.47,18.27
+1992,Dallas,18.19,18.24
+1993,Dallas,17.82,18.22
+1994,Dallas,18.31,18.19
+1995,Dallas,18.45,18.29
+1996,Dallas,18.43,18.29
+1997,Dallas,17.85,18.31
+1998,Dallas,19.85,18.22
+1999,Dallas,19.61,18.36
+2000,Dallas,18.9,18.49
+2001,Dallas,18.55,18.62
+2002,Dallas,18.19,18.58
+2003,Dallas,18.55,18.56
+2004,Dallas,18.58,18.59
+2005,Dallas,19.13,18.66
+2006,Dallas,19.85,18.74
+2007,Dallas,18.42,18.86
+2008,Dallas,18.52,18.86
+2009,Dallas,18.42,18.92
+2010,Dallas,18.69,18.79
+2011,Dallas,19.69,18.71
+2012,Dallas,19.99,18.78
+2013,Dallas,20.45,18.91

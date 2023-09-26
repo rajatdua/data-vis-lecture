@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Misleading Visualistaion</title>
+<title>Misleading Vis</title>
 <script src="https://cdn.jsdelivr.net/npm/vega@5.25.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.12.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.22.1"></script>
@@ -11,8 +11,47 @@
 <div id="view"></div>
 <script>
 const spec = {
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+        "url": "https://raw.githubusercontent.com/rajatdua/dataset/main/dallas_avgtemp.csv",
+        "format": {
+          "type": "csv"
+        }
+      },
+    "transform": [
+      {
+        "calculate": "datum.avg_temp >= (datum.10y_ma - 0.3) && datum.avg_temp <= (datum.10y_ma + 0.3) ? 'Similar' : 'Different'",
+        "as": "similarity"
+      }
+    ],
+    "layer": [
+      {
+        "mark": {"type": "circle", "opacity": 0.5, "size": 200},
+        "encoding": {
+          "x": {"field": "city", "type": "ordinal"},
+          "y": {"field": "year", "type": "ordinal"},
+          "color": {"field": "similarity", "type": "nominal"}
+        }
+      },
+      {
+        "mark": {"type": "text", "align": "center", "baseline": "middle", "dx": -5},
+        "encoding": {
+          "x": {"field": "city", "type": "ordinal"},
+          "y": {"field": "year", "type": "ordinal"},
+          "text": {"field": "city", "type": "nominal"},
+          "color": {"value": "black"}
+        }
+      }
+    ],
+    "config": {
+      "view": {"stroke": "transparent"},
+      "axis": {"domain": false}
+    }
+  }
+  
+/* const spec1 = {
   "data": {
-    "url": "dallas_avgtemp.csv",
+    "url": "https://raw.githubusercontent.com/rajatdua/dataset/main/dallas_avgtemp.csv",
     "format": {
       "type": "csv"
     }
@@ -28,7 +67,7 @@ const spec = {
       "type": "quantitative"
     }
   }
-};
+}; */
 const runtime = vega.parse(spec);
 const view = new vega.View(runtime)
   .renderer("svg")
