@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Misleading Visualistaion</title>
+<script src="https://cdn.jsdelivr.net/npm/vega@5.25.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.12.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.22.1"></script>
+
+</head>
+<body>
+<div id="view"></div>
+<script>
+const spec = {
+  "data": {
+    "url": "dallas_avgtemp.csv",
+    "format": {
+      "type": "csv"
+    }
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "category",
+      "type": "ordinal"
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative"
+    }
+  }
+};
+const runtime = vega.parse(spec);
+const view = new vega.View(runtime)
+  .renderer("svg")
+  .initialize("#view");
+</script>
+</body>
+</html>
