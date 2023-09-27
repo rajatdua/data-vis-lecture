@@ -1,77 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Misleading Vis</title>
-<script src="https://cdn.jsdelivr.net/npm/vega@5.25.0"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.12.0"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.22.1"></script>
-
+  <title>Misleading Visualization</title>
+  <!-- Include Vega and Vega-Lite libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.25.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.12.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.22.1"></script>
 </head>
 <body>
-<div id="view"></div>
-<script>
-const spec = {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "data": {
-        "url": "https://raw.githubusercontent.com/rajatdua/dataset/main/dallas_avgtemp.csv",
-        "format": {
-          "type": "csv"
-        }
+  <!-- Container for the visualization -->
+  <div id="vis"></div>
+
+  <script>
+    // Vega-Lite specification for the bar chart
+    const spec = {
+      "width": 900,
+      "height": 200,
+      "title": {"text": "163 Years of Commulative Avg Temps", "font": "fantasy", "fontSize": 36},
+      "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+      "description": "The wrongest visualization",
+      "data": {
+        "url": "https://raw.githubusercontent.com/rajatdua/dataset/main/combined.csv",
+        "format": {"type": "csv"}
       },
-    "transform": [
-      {
-        "calculate": "datum.avg_temp >= (datum.10y_ma - 0.3) && datum.avg_temp <= (datum.10y_ma + 0.3) ? 'Similar' : 'Different'",
-        "as": "similarity"
-      }
-    ],
-    "layer": [
-      {
-        "mark": {"type": "circle", "opacity": 0.5, "size": 200},
-        "encoding": {
-          "x": {"field": "city", "type": "ordinal"},
-          "y": {"field": "year", "type": "ordinal"},
-          "color": {"field": "similarity", "type": "nominal"}
+      "mark": {"type": "bar", "opacity": 0.7, "cornerRadius": 4},
+      "encoding": {
+        "x": {
+          "field": "avg_temp",
+          "type": "quantitative",
+          "axis": {
+            "title": "Cumulative Avg Temps",
+            "grid": false,
+            "labelFont": "Georgia",
+            "titleFont": "Comic Sans MS",
+            "labelFontSize": 8,
+            "titleFontSize": 16
+          }
+        },
+        "y": {
+          "field": "city",
+          "type": "nominal",
+          "axis": {
+            "title": "City",
+            "grid": true,
+            "labelFont": "Comic Sans MS",
+            "titleFont": "Georgia",
+            "labelFontSize": 16,
+            "titleFontSize": 20
+          },
+          "sort": ["Dallas", "Seattle", "Oklahoma City", "Denver"]
+        },
+        "size": {"field": "avg_temp", "type": "quantitative", "bin": true},
+        "color": {
+          "type": "quantitative",
+          "field": "avg_temp",
+          "scale": {
+            "domain": [5, 10, 15, 20],
+            "range": ["#ff0000", "#008000", "#964B00", "#0000FF"]
+          }
         }
+      }
+    }
+
+    const config = {
+      "title": {
+        "fontSize": 36,   // Change title font size
+        "font": "Georgia"  // Change title font family
       },
-      {
-        "mark": {"type": "text", "align": "center", "baseline": "middle", "dx": -5},
-        "encoding": {
-          "x": {"field": "city", "type": "ordinal"},
-          "y": {"field": "year", "type": "ordinal"},
-          "text": {"field": "city", "type": "nominal"},
-          "color": {"value": "black"}
-        }
+      "axis": {
+        "labelFontSize": 18,  // Change axis label font size
+        "labelFont": "Comic Sans MS" // Change axis label font family
       }
-    ],
-    "config": {
-      "view": {"stroke": "transparent"},
-      "axis": {"domain": false}
-    }
-  }
-  
-/* const spec1 = {
-  "data": {
-    "url": "https://raw.githubusercontent.com/rajatdua/dataset/main/dallas_avgtemp.csv",
-    "format": {
-      "type": "csv"
-    }
-  },
-  "mark": "bar",
-  "encoding": {
-    "x": {
-      "field": "category",
-      "type": "ordinal"
-    },
-    "y": {
-      "field": "value",
-      "type": "quantitative"
-    }
-  }
-}; */
-const runtime = vega.parse(spec);
-const view = new vega.View(runtime)
-  .renderer("svg")
-  .initialize("#view");
-</script>
+    };
+
+    // Embed the visualization in the "vis" container
+    vegaEmbed("#vis", spec);
+  </script>
 </body>
 </html>
